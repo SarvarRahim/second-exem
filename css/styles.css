@@ -604,6 +604,7 @@ img {
 }
 
 .order-btn {
+  width: 167px;
   padding: 8px 16px;
   background-color: var(--link-bg-color);
   border-radius: 5px;
@@ -611,6 +612,8 @@ img {
   margin-left: auto;
   cursor: pointer;
   border: none;
+  margin-left: 62px;
+  margin-right: 90px;
 }
 
 /* FOOTER SECTION  */
