@@ -119,6 +119,11 @@ img {
   border-bottom: 3px solid #191919;
 }
 
+.nav__link:active {
+  background: rgba(25, 25, 25, 0.7);
+  color: #fff;
+}
+
 .dropdown {
   display: none;
   width: 124px;
@@ -402,6 +407,12 @@ img {
 
 
 /* HOW WE WORK PAGE  */
+
+.we-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .main__title {
   width: 262px;
