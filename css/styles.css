@@ -615,7 +615,7 @@ img {
 }
 
 .order-btn {
-  width: 167px;
+  /* width: 167px; */
   padding: 8px 16px;
   background-color: var(--link-bg-color);
   border-radius: 5px;
@@ -623,8 +623,18 @@ img {
   margin-left: auto;
   cursor: pointer;
   border: none;
-  margin-left: 62px;
-  margin-right: 90px;
+  transition: background-color 0.3s ease;
+  /* margin-left: 62px;
+  margin-right: 90px; */
+}
+
+.order-btn:hover {
+  background: rgba(0, 186, 252, 0.8);
+  border-radius: 5px;
+}
+
+.order-btn:active {
+    background-color: rgba(0, 186, 252, 0.6);
 }
 
 /* FOOTER SECTION  */
