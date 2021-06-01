@@ -14,55 +14,32 @@
 <body>
 
   <header class="site-header">
+    <div class="site-header__container container">
+      <a class="site-header__logo logo">
+        <img class="logo__img" src="img/pixer-logo.svg" alt="Pixer logo" width="58" height="20">
+      </a>
 
-    <div class="container">
-      <div class="header-wrapper">
-        <a class="logo-img__link" href="index.html"><img class="logo-site-img" src="img/pixer-logo.svg" alt="logo site" width="58" height="20"></a>
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item sitenav__item--active"><a class="sitenav__link" href="index.html">Bosh sahifa</a></li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="servisec.html">Xizmatlar</a>
+            <ul class="dropdown-menu">
+              <li><a href="website.html">Vebsayt</a></li>
+              <li><a href="telegrambot.html">Telegram bot</a></li>
+              <li><a href="smm.html">SMM</a></li>
+              <li><a href="graphikdesign.html">Grafik dizayn</a></li>
+              <li><a href="crm.html">CRM tizim</a></li>
+            </ul>
+          </li>
+          <li class="sitenav__item"><a class="sitenav__link" href="portfolio.html">Portfolio</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="team.html">Jamoa</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="blog.html">Blog</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="contacts.html">Kontaktlar</a></li>
+        </ul>
+      </nav>
 
-        <nav class="site-nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">Bosh sahifa</a>
-            </li>
-            <li class="nav__item">
-              <a href="servisec.html" class="nav__link">Xizmatlar</a>
-              <ul class="dropdown">
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#website-illustarat">Vebsayt</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#telegram-bot">Telegram bot</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#smm-illustrat">SMM</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#graphic">Gradik Dizayn</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#crm-illustrat">CRM Tizim</a>
-                </li>
-
-              </ul>
-            </li>
-            <li class="nav__item">
-              <a href="portfolio.html" class="nav__link">Portfolio</a>
-            </li>
-            <li class="nav__item">
-              <a href="team.html" class="nav__link">Jamoa</a>
-            </li>
-            <li class="nav__item">
-              <a href="blog.html" class="nav__link">Blog</a>
-            </li>
-            <li class="nav__item">
-              <a href="contacts.html" class="nav__link">Kontaktlar</a>
-            </li>
-            <li class="nav__item">
-              <a href="tel:+998909213711" class=" nav-link-call">+998 90 921 37 11</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <a class="site-header__phone button button--phone" href="tel:+998909213711">+998 90 921 37 11</a>
     </div>
   </header>
   <main class="main">
@@ -78,14 +55,13 @@
             </p>
             <a href="#servic-page" class="hero__link">Xizmatlar bilan tanishish</a>
           </div>
-
           <div class="hero-right">
-            <iframe class="video-from-youtube" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM" title="YouTube video player" al allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-from-youtube" src="https://www.youtube.com/embed/6_pru8U2RmM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </section>
 
-
+        <!-- SERVICES PAGE  -->
       <section class="services" id="servic-page">
         <div class="container">
           <div class="services__texts">
@@ -131,56 +107,63 @@
           </ul>
 
           <div class="order-servic">
-            <a class="servic-link" href="#">Buyurtma berish</a>
+            <a class="servic-link" href="#services-page">Buyurtma berish</a>
             <a class="servic-next" href="servisec.html">Xizmatlar sahifasiga o'tish</a>
           </div>
         </div>
       </section>
 
-      <!-- BIZ QANDAY ISHLAYMIZ SECTION  --> 
+      <!-- BIZ QANDAY ISHLAYMIZ SECTION  -->
 
-      <section class="we-work">
+      <section class="how-we-work">
         <div class="container">
-        <h2 class="main__title">Biz qanday ishlaymiz?</h2>
+          <h2 class="main__title">Biz qanday ishlaymiz?</h2>
         <p class="main__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
 
-        <ul class="main__list">
-          <li class="main__item main__item-first">
-              <div class="list-wrapper">
-              <h3 class="main-list__title">Talablarni aniqlab chiqamiz</h3>
-              <p class="main-list__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+        <ol class="how-we-work__list">
+          <li class="how-we-work__item how-we-work__item-req">
+            <div class="how-we-work-detailes">
+              <h3 class="how-we-work__step__title">Talablarni aniqlab chiqamiz</h3>
+              <p class="how-we-work__step-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
             </div>
           </li>
-            <li class="main__item main__item-second">
-              <div class="list-wrapper">
-              <h3 class="main-list__title-second">Bir necha yechimlarni taklif qilamiz</h3>
-              <p class="main-list__text-second">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
-            </div>
-            </li>
-            <li class="main__item main__item-thtit">
-              <div class="list-wrapper">
-              <h3 class="main-list__title">Loyiha uchun vaqt belgilaymiz</h3>
-              <p class="main-list__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+
+          <li class="how-we-work__item how-we-work__item-offerc">
+            <div class="how-we-work-detailes">
+              <h3 class="how-we-work__step__title">Bir necha yechimlarni taklif qilamiz</h3>
+              <p class="how-we-work__step-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
             </div>
           </li>
-          <li class="main__item main__item-four">
-              <div class="list-wrapper">
-              <h3 class="main-list__title-second">A’lo sifat bilan bajarib topshiramiz</h3>
-              <p class="main-list__text-second">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+
+          <li class="how-we-work__item how-we-work__item-deadline">
+            <div class="how-we-work-detailes">
+              <h3 class="how-we-work__step__title">Loyiha uchun vaqt belgilaymiz</h3>
+              <p class="how-we-work__step-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
             </div>
-            </li>
-        </ul>
-        <li class="main__item main__item-five">
-          <div class="list-wrapper">
-          <h3 class="main-list__title">Qo’llab-quvvatlab boramiz</h3>
-          <p class="main-list__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+          </li>
+
+          <li class="how-we-work__item how-we-work__item-quality">
+            <div class="how-we-work-detailes">
+              <h3 class="how-we-work__step__title">A’lo sifat bilan bajarib topshiramiz</h3>
+              <p class="how-we-work__step-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+            </div>
+          </li>
+
+          <li class="how-we-work__item how-we-work__item-support">
+            <div class="how-we-work-detailes">
+              <h3 class="how-we-work__step__title">Qo’llab-quvvatlab boramiz</h3>
+              <p class="how-we-work__step-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+            </div>
+          </li>
+        </ol>
+        <div class="btn-wrap">
+          <button class="order-btn" type="submit" id="#input-name">Buyurtma berish</button>
         </div>
-      </li>
-      </div>
+        </div>
       </section>
 
       <!-- FORM SECTION  -->
-      <section class="form-section">
+      <section class="form-section" id="services-page">
         <div class="container">
           <h2 class="form-order__title">Buyurtma berish</h2>
           <p class="form-order__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
@@ -195,8 +178,8 @@
             </div>
 
             <div class="input-group">
-              <select class="input-field" name="country" id="conutry" required >
-                <option value="uz" disabled selected>Xizmat turi</option>
+              <select class="input-field" name="servic-type" id="servic" required >
+                <option value="" disabled selected>Xizmat turi</option>
                 <option value="web">Web sayt</option>
                 <option value="bot">Telegram bot</option>
                 <option value="design">Graphik design</option>
