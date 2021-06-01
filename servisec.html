@@ -5,61 +5,189 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>services</title>
-  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style-services.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="header-wrapper">
-        <a class="logo-img__link" href="index.html"><img class="logo-site-img" src="img/pixer-logo.svg" alt="logo site" width="58" height="20"></a>
 
-        <nav class="site-nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">Bosh sahifa</a>
-            </li>
-            <li class="nav__item">
-              <a href="servisec.html" class="nav__link">Xizmatlar</a>
-              <ul class="dropdown">
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#website-illustarat">Vebsayt</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#telegram-bot">Telegram bot</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#smm-illustrat">SMM</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#graphic">Gradik Dizayn</a>
-                </li>
-                <li class="dropdown__item">
-                  <a class="dropdown__link" href="#crm-illustrat">CRM Tizim</a>
-                </li>
+<header class="site-header">
+  <div class="site-header__container container">
+    <a class="site-header__logo logo">
+      <img class="logo__img" src="img/pixer-logo.svg" alt="Pixer logo" width="58" height="20">
+    </a>
 
-              </ul>
-            </li>
-            <li class="nav__item">
-              <a href="portfolio.html" class="nav__link">Portfolio</a>
-            </li>
-            <li class="nav__item">
-              <a href="team.html" class="nav__link">Jamoa</a>
-            </li>
-            <li class="nav__item">
-              <a href="blog.html" class="nav__link">Blog</a>
-            </li>
-            <li class="nav__item">
-              <a href="contacts.html" class="nav__link">Kontaktlar</a>
-            </li>
-            <li class="nav__item">
-              <a href="tel:+998909213711" class=" nav-link-call">+998 90 921 37 11</a>
-            </li>
+    <nav class="sitenav">
+      <ul class="sitenav__list">
+        <li class="sitenav__item"><a class="sitenav__link" href="index.html">Bosh sahifa</a></li>
+        <li class="sitenav__item sitenav__item--active">
+          <a class="sitenav__link" href="servisec.html">Xizmatlar</a>
+          <ul class="dropdown-menu">
+            <li><a href="website.html">Vebsayt</a></li>
+            <li><a href="telegrambot.html">Telegram bot</a></li>
+            <li><a href="smm.html">SMM</a></li>
+            <li><a href="graphikdesign.html">Grafik dizayn</a></li>
+            <li><a href="crm.html">CRM tizim</a></li>
           </ul>
-        </nav>
+        </li>
+        <li class="sitenav__item"><a class="sitenav__link" href="portfolio.html">Portfolio</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="team.html">Jamoa</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="blog.html">Blog</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="contacts.html">Kontaktlar</a></li>
+      </ul>
+    </nav>
+
+    <a class="site-header__phone button button--phone" href="tel:+998909213711">+998 90 921 37 11</a>
+  </div>
+</header>
+
+<main class="services-site-content">
+
+<section class="index-services">
+  <h2 class="services__title">Xizmatlar</h2>
+  <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium orci nec neque finibus mattis. Vivamus in sem rhoncus, bibendum sapien in, placerat mi. Praesent tempus faucibus risus in imperdiet. Integer elementum justo sit amet odio tincidunt, a pellentesque massa condimentum.</p>
+</section>
+
+<section class="services-inner">
+  <ul class="services__list">
+    <li class="services__item">
+      <div class="services-right__wrapper">
+        <h3 class="services-name__title">Sayt tuzish</h3>
+        <p class="services-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium orci nec neque finibus mattis</p>
+        <ul class="item-in__list">
+          <li class="list-in__feature">lending</li>
+          <li class="list-in__feature">vizitka</li>
+          <li class="list-in__feature">korporativ</li>
+          <li class="list-in__feature">internet do’kon</li>
+          <li class="list-in__feature">maxsus
+          <div class="links__wrapper">
+            <a class="list-order__btn" href="#services-page">Buyurtma berish</a>
+            <a class="list-more__link" href="services.html">Batafsil ma'lumot</a>
+          </div>
+        </li>
+        </ul>
       </div>
+    </li>
+  </ul>
+
+  <ul class="services__list">
+    <li class="services__item services__item-tg__bot">
+      <div class="services-right__wrapper">
+        <h3 class="services-name__title">Sayt tuzish</h3>
+        <p class="services-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium orci nec neque finibus mattis</p>
+        <ul class="item-in__list">
+          <li class="list-in__feature">lending</li>
+          <li class="list-in__feature">vizitka</li>
+          <li class="list-in__feature">korporativ</li>
+          <li class="list-in__feature">internet do’kon</li>
+          <li class="list-in__feature">maxsus
+          <div class="links__wrapper">
+            <a class="list-order__btn" href="#services-page">Buyurtma berish</a>
+            <a class="list-more__link" href="services.html">Batafsil ma'lumot</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="services__list">
+    <li class="services__item services__item-smm">
+      <div class="services-right__wrapper">
+        <h3 class="services-name__title">Sayt tuzish</h3>
+        <p class="services-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium orci nec neque finibus mattis</p>
+        <ul class="item-in__list">
+          <li class="list-in__feature">lending</li>
+          <li class="list-in__feature">vizitka</li>
+          <li class="list-in__feature">korporativ</li>
+          <li class="list-in__feature">internet do’kon</li>
+          <li class="list-in__feature">maxsus
+          <div class="links__wrapper">
+            <a class="list-order__btn" href="#services-page">Buyurtma berish</a>
+            <a class="list-more__link" href="services.html">Batafsil ma'lumot</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="services__list">
+    <li class="services__item services__item-graphic">
+      <div class="services-right__wrapper">
+        <h3 class="services-name__title">Sayt tuzish</h3>
+        <p class="services-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium orci nec neque finibus mattis</p>
+        <ul class="item-in__list">
+          <li class="list-in__feature">lending</li>
+          <li class="list-in__feature">vizitka</li>
+          <li class="list-in__feature">korporativ</li>
+          <li class="list-in__feature">internet do’kon</li>
+          <li class="list-in__feature">maxsus
+          <div class="links__wrapper">
+            <a class="list-order__btn" href="#services-page">Buyurtma berish</a>
+            <a class="list-more__link" href="services.html">Batafsil ma'lumot</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="services__list">
+    <li class="services__item services__item-crm">
+      <div class="services-right__wrapper">
+        <h3 class="services-name__title">Sayt tuzish</h3>
+        <p class="services-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium orci nec neque finibus mattis</p>
+        <ul class="item-in__list">
+          <li class="list-in__feature">lending</li>
+          <li class="list-in__feature">vizitka</li>
+          <li class="list-in__feature">korporativ</li>
+          <li class="list-in__feature">internet do’kon</li>
+          <li class="list-in__feature">maxsus
+          <div class="links__wrapper">
+            <a class="list-order__btn" href="#services-page">Buyurtma berish</a>
+            <a class="list-more__link" href="services.html">Batafsil ma'lumot</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+  <!-- FORM SECTION  -->
+  <section class="form-section" id="services-page">
+    <div class="container">
+      <h2 class="form-order__title">Buyurtma berish</h2>
+      <p class="form-order__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+      <form class="user-form" action="https://echo.htmlacademy.ru" method="POST">
+        <div class="input-group">
+          <label class="input-label visually-hidden" for="input-name">Name</label>
+          <input class="input-field" id="input-name" name="name" type="text" placeholder="Ismingiz" required>
+        </div>
+        <div class="input-group">
+          <label class="input-label visually-hidden">LastName</label>
+          <input class="input-field" type="tel" name="phone" required placeholder="Telefon raqamingiz">
+        </div>
+
+        <div class="input-group">
+          <select class="input-field" name="servic-type" id="servic" required >
+            <option value="" disabled selected>Xizmat turi</option>
+            <option value="web">Web sayt</option>
+            <option value="bot">Telegram bot</option>
+            <option value="design">Graphik design</option>
+            <option value="smm">SMM</option>
+            <option value="crm">CRM tizimlar</option>
+          </select>
+        </div>
+        <div class="btn-wrapper">
+        <button class="order-btn" type="submit">Buyurtma berish</button>
+      </div>
+      </form>
     </div>
-  </header>
+  </section>
+</main>
+
 </body>
 </html>
-
