@@ -501,7 +501,6 @@ img {
 }
 
 .form-order__title {
-  width: 203px;
   margin: 0;
   font-style: normal;
   font-weight: bold;
@@ -516,7 +515,6 @@ img {
 }
 
 .form-order__text {
-  width: 719px;
   margin: 0;
   font-style: normal;
   font-weight: normal;
@@ -553,7 +551,6 @@ img {
 }
 
 .order-btn {
-  /* width: 167px; */
   padding: 8px 16px;
   background-color: var(--link-bg-color);
   border-radius: 5px;
@@ -562,8 +559,6 @@ img {
   cursor: pointer;
   border: none;
   transition: background-color 0.3s ease;
-  /* margin-left: 62px;
-  margin-right: 90px; */
 }
 
 .order-btn:hover {
@@ -586,7 +581,10 @@ img {
 .footer-rapper {
   display: flex;
   align-items: flex-start !important;
-  justify-content: start;
+}
+
+.footer-info {
+  margin-right: 100px;
 }
 
 
@@ -603,7 +601,7 @@ img {
 }
 
 .footer-info__text {
-  /* width: 320px; */
+  width: 320px;
   margin: 0;
   font-style: normal;
   font-weight: normal;
@@ -617,6 +615,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-right: 86px;
 }
 
 .site-pages__title {
